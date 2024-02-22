@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.935 s <<< FAILURE! - in TestSuite
+PetStoreCreBDD.TestRunner.runScenario["Search for a product", "Search"](1)  Time elapsed: 0.263 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Unsupported browser: google
+	at Config.WebDriverConfig.startBrowser(WebDriverConfig.java:53)
+	at PetStoreCreBDD.steps.SearchAndViewProductTest.i_have_a_selenium_using(SearchAndViewProductTest.java:23)
+	at ✽.I have a Selenium using "google" search(file:///C:/Users/Ricardo/eclipse-workspace/PetStoreCRE/src/test/resources/SearchAndViewProduct.feature:6)
+

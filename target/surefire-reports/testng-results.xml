@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T18:33:04 WET" name="Surefire suite" finished-at="2024-02-22T18:33:21 WET" duration-ms="16713">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-22T18:33:04 WET" name="Surefire test" finished-at="2024-02-22T18:33:21 WET" duration-ms="16713">
+      <class name="PetStoreCreBDD.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:04 WET" name="setUpClass" finished-at="2024-02-22T18:33:05 WET" duration-ms="353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a5c8d3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:19 WET" duration-ms="14474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finalize a Order with an Item in the Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Finalize a Order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:16 WET" duration-ms="11603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register a new user with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register a new user in the website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:17 WET" duration-ms="12270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login user with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into the website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:20 WET" duration-ms="15380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one item to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:20 WET" duration-ms="15441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one item to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:05 WET" duration-ms="262" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Unsupported browser: google]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Unsupported browser: google
+at Config.WebDriverConfig.startBrowser(WebDriverConfig.java:53)
+at PetStoreCreBDD.steps.SearchAndViewProductTest.i_have_a_selenium_using(SearchAndViewProductTest.java:23)
+at ✽.I have a Selenium using "google" search(file:///C:/Users/Ricardo/eclipse-workspace/PetStoreCRE/src/test/resources/SearchAndViewProduct.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:20 WET" name="tearDownClass" finished-at="2024-02-22T18:33:21 WET" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- PetStoreCreBDD.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
