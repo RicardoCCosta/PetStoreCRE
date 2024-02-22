@@ -44,15 +44,6 @@ public class Helper {
 		}
 	}
 	
-	public static String getUniqueEmail() {
-		// Get current timeStamp
-		LocalDateTime now = LocalDateTime.now();
-		// Format timeStamp into a readable number 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmssSSS");
-        String formattedDateTime = now.format(formatter);
-        // Return in an email format
-        return "user_" + formattedDateTime + "@gmail.com";
-	}
 	
 	public static String getUniqueUsername() {
 		// Get current timeStamp
@@ -62,6 +53,10 @@ public class Helper {
         String formattedDateTime = now.format(formatter);
         // Return as a userName
         return "user_" + formattedDateTime;
+	}
+	
+	public static String getUniqueEmail() {
+        return getUniqueUsername() + "@gmail.com";
 	}
 	
 	// Used for instances where the test need the browser to load properly

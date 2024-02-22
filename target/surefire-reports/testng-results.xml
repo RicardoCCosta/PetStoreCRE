@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T18:33:04 WET" name="Surefire suite" finished-at="2024-02-22T18:33:21 WET" duration-ms="16713">
+  <suite started-at="2024-02-22T19:28:23 WET" name="Surefire suite" finished-at="2024-02-22T19:28:36 WET" duration-ms="12850">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-22T18:33:04 WET" name="Surefire test" finished-at="2024-02-22T18:33:21 WET" duration-ms="16713">
+    <test started-at="2024-02-22T19:28:23 WET" name="Surefire test" finished-at="2024-02-22T19:28:36 WET" duration-ms="12850">
       <class name="PetStoreCreBDD.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:04 WET" name="setUpClass" finished-at="2024-02-22T18:33:05 WET" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="setUpClass" finished-at="2024-02-22T19:28:23 WET" duration-ms="364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,39 +21,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:19 WET" duration-ms="14474" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:34 WET" duration-ms="11194" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Finalize a Order with an Item in the Cart"]]>
+                <![CDATA["Add one item to cart"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Finalize a Order"]]>
+                <![CDATA["Add to cart"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:16 WET" duration-ms="11603" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register a new user with valid data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register a new user in the website"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:17 WET" duration-ms="12270" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:29 WET" duration-ms="6341" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +53,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:20 WET" duration-ms="15380" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:27 WET" duration-ms="3482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login user with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into the website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:30 WET" duration-ms="6805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register a new user with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register a new user in the website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:28 WET" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register a new user with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register a new user in the website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:31 WET" duration-ms="8223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +117,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:20 WET" duration-ms="15441" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:35 WET" duration-ms="11591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finalize a Order with an Item in the Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Finalize a Order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:31 WET" duration-ms="8223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +149,74 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:05 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T18:33:05 WET" duration-ms="262" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:35 WET" duration-ms="11627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one item to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:23 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:31 WET" duration-ms="7739" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Finalize a Order with an Item in the Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Finalize a Order"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=/html[1]/body[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[1]/a[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Ricardo\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 122.0.6261.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=/html[1]/body[1]/div[2]/div[2]/table[1]/tbody[1]/tr[2]/td[1]/a[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Ricardo\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 122.0.6261.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at PageObjects.ProductPage.clickOnFirstProduct(ProductPage.java:32)
+at PetStoreCreBDD.steps.FinalizeOrderTest.Given_I_have_added_a_Product_in_the_Cart(FinalizeOrderTest.java:37)
+at ✽.I have added a Product in the Cart(file:///C:/Users/Ricardo/eclipse-workspace/PetStoreCRE/src/test/resources/FinalizeOrder.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:27 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:27 WET" duration-ms="742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,22 +229,53 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Unsupported browser: google]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Unsupported browser: google
-at Config.WebDriverConfig.startBrowser(WebDriverConfig.java:53)
-at PetStoreCreBDD.steps.SearchAndViewProductTest.i_have_a_selenium_using(SearchAndViewProductTest.java:23)
-at ✽.I have a Selenium using "google" search(file:///C:/Users/Ricardo/eclipse-workspace/PetStoreCRE/src/test/resources/SearchAndViewProduct.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T18:33:20 WET" name="tearDownClass" finished-at="2024-02-22T18:33:21 WET" duration-ms="899" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:27 WET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-22T19:28:27 WET" duration-ms="17" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Ricardo\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 122.0.6261.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\Ricardo\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 122.0.6261.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at PageObjects.HomePage.goToHomePage(HomePage.java:24)
+at PetStoreCreBDD.steps.SearchAndViewProductTest.I_am_at_the_homepage(SearchAndViewProductTest.java:32)
+at ✽.I am at the homepage(file:///C:/Users/Ricardo/eclipse-workspace/PetStoreCRE/src/test/resources/SearchAndViewProduct.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:PetStoreCreBDD.TestRunner@498d318c]" started-at="2024-02-22T19:28:35 WET" name="tearDownClass" finished-at="2024-02-22T19:28:36 WET" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

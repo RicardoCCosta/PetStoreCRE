@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="5"/>
+          <include name="runScenario" invocation-numbers="6 11"/>
         </methods>
       </class> <!-- PetStoreCreBDD.TestRunner -->
     </classes>

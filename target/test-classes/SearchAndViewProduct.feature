@@ -10,7 +10,7 @@ Feature: Search
 
     Examples: 
       | browser |
-      | google  |
+      | chrome  |
 
   @firefox
   Scenario Outline: Search for a product
